@@ -26,15 +26,7 @@ function CreateUser() {
       <div className="w-50 bg-white rounded p-3">
         <form onSubmit={handleSubmit}>
           <h2>Add User</h2>
-          <div className="mb-2">
-            <label htmlFor="">Name</label>
-            <input
-              type="text"
-              placeholder="Enter Name"
-              className="form-control"
-              onChange={(e) => setName(e.target.value)}
-            />
-          </div>
+
           <div className="mb-2">
             <label htmlFor="">Name</label>
             <input

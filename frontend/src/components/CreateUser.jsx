@@ -36,6 +36,15 @@ function CreateUser() {
             />
           </div>
           <div className="mb-2">
+            <label htmlFor="">Name</label>
+            <input
+              type="text"
+              placeholder="Enter Name"
+              className="form-control"
+              onChange={(e) => setName(e.target.value)}
+            />
+          </div>
+          <div className="mb-2">
             <label htmlFor="">Email</label>
             <input
               type="email"
